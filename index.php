@@ -1,5 +1,5 @@
 <?php 
-$logged = false;
+$logged = true;
 ?>
 <html>
 <head>
@@ -30,8 +30,7 @@ $logged = false;
 </body>
 <script>
 	function login() {
-		var value = $('.password').val();
-		console.log(value);
+		var value = encodeURI($('input.password').val());
 		$('body').load("controllers/login.php?v="+value);
 	}
 </script>
