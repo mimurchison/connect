@@ -16,6 +16,8 @@ $logged = true;
 		<?php
 	}
 ?>
+<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+<link rel="stylesheet" src="styles/all.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
